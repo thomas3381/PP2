@@ -1,0 +1,89 @@
+/* Reset default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic layout styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+header {
+    background-color: #007bb5;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* Blog content styling */
+.content {
+    margin-top: 30px;
+}
+
+article {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+h2 {
+    font-size: 28px;
+    color: #007bb5;
+}
+
+.faq h3 {
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+/* Call to Action Styling */
+.cta-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #007bb5;
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #005f83;
+    cursor: pointer;
+}
+
+.cta-button:active {
+    background-color: #004c66;
+}
+
+/* Contact Section */
+.contact {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    margin-top: 30px;
+}
